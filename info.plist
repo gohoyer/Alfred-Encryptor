@@ -831,7 +831,7 @@ echo -n $file_name</string>
 				<integer>102</integer>
 				<key>script</key>
 				<string>err_report() {
-    echo -n "ERROR on $1"
+    echo -n "ERROR"
     rm -f "${tar_file}"
 	exit 1
 }
@@ -1273,7 +1273,7 @@ rm -f "${tar_file}"</string>
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>1.0.0</string>
+	<string>1.0.1</string>
 	<key>webaddress</key>
 	<string>https://github.com/gohoyer</string>
 </dict>
